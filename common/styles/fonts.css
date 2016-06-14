@@ -1,0 +1,57 @@
+@import url(../fonts/open-iconic/font/css/open-iconic.scss);
+$iconic-font-path: '../fonts/open-iconic/font/fonts/' !default;
+@font-face {
+  font-family: 'Icons';
+  src: url('#{$iconic-font-path}open-iconic.eot');
+  src: url('#{$iconic-font-path}open-iconic.eot?#iconic-sm') format('embedded-opentype'), url('#{$iconic-font-path}open-iconic.woff') format('woff'), url('#{$iconic-font-path}open-iconic.ttf') format('truetype'), url('#{$iconic-font-path}open-iconic.otf') format('opentype'), url('#{$iconic-font-path}open-iconic.svg?#iconic-sm') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Arvo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Arvo'), url(https://fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin */
+@font-face {
+  font-family: 'Arvo';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Arvo Bold'), local('Arvo-Bold'), url(https://fonts.gstatic.com/s/arvo/v9/uO-jO7kF010hXOpU_-jk8QLUuEpTyoUstqEm5AMlJo4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin */
+@font-face {
+  font-family: 'Arvo';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Arvo Italic'), local('Arvo-Italic'), url(https://fonts.gstatic.com/s/arvo/v9/xoql5UXIZh27cCiGy9pivevvDin1pK8aKteLpeZ5c0A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+p:global,
+h1:global,
+h2:global,
+h3:global,
+h4:global,
+h5:global,
+h6:global,
+label:global,
+a:global {
+  font-family: Arvo, serif;
+}
+
+
+/* Links style */
+a:global {
+  text-decoration: none;
+  color: rgb(15, 132, 208);
+}
+a:hover:global {
+  text-decoration: underline;
+  color: rgb(15, 103, 161);
+}

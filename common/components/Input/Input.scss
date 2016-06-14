@@ -1,0 +1,42 @@
+.input {
+  width: 100%;
+  height: 32px;
+  border: none;
+  background: none;
+  border-bottom: 1px solid #bbb;
+  font-size: .85em;
+  padding: 2px 0;
+  line-height: 32px;
+  transition: all .2s;
+  font-family: Arvo, serif;
+}
+.input:focus {
+  outline: none;
+  box-shadow: none;
+}
+.textarea {
+  composes: input;
+  line-height: 1.3em;
+  vertical-align: middle;
+  height: 1em;
+  resize: none;
+  display: block;
+}
+.wrapper {
+  margin-bottom: 10px;
+  position: relative;
+  &::after, &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0%;
+    height: 2px;
+    background: #000;
+    transition: all .2s;
+  }
+}
+.focused::after, .focused:after {
+  width: 100%;
+}

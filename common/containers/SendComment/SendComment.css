@@ -1,0 +1,61 @@
+.wrapper {
+  width: 100%;
+  position: relative;
+  margin-bottom: 12px;
+  height: auto;
+}
+/**/
+.inputWrapper {
+  width: 100%;
+  height: auto;
+}
+.input {
+  display: block;
+  width: 100%;
+  background: none;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  border-bottom: 1px solid #ccc;
+  font-size: .8em;
+  font-family: Arvo, serif;
+  height: 30px;
+  resize: none;
+  padding-top: 10px;
+}
+.input:focus {
+  outline: 0;
+  box-shadow: none;
+  border-bottom-color: #666;
+}
+/**/
+.submitWrapper {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 60px;
+}
+.submit {
+  height: 30px;
+  display: block;
+  text-transform: uppercase;
+  background: none;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #999;
+  font-family: Arvo, serif;
+  cursor: pointer;
+  transition: all .15s;
+}
+.submit:hover {
+  color: #666;
+}
+.submit:focus {
+  outline: 0;
+  box-shadow: none;
+  color: #000;
+}

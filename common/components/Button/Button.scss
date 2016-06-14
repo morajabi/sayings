@@ -1,0 +1,76 @@
+.button {
+  vertical-align: middle;
+  line-height: 20px;
+  font-family: 'Arvo', serif;
+  font-weight: bold;
+  background: none;
+  cursor: pointer;
+  &:hover {
+    background: #f8f8f8;
+  }
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+/*-- Sizes */
+.big {
+  padding: 10px 20px;
+  font-size: 15px;
+}
+.medium {
+  padding: 8px 15px;
+  font-size: 13px;
+}
+.small {
+  padding: 4px 10px;
+  font-size: 12.2px;
+}
+
+
+/*-- Colors */
+.green {
+  color: rgb(0, 181, 52);
+  border: 2px solid rgb(0, 181, 52);
+}
+.red {
+  color: rgb(190, 18, 59);
+  border: 2px solid rgb(190, 18, 59);
+}
+.black {
+  color: rgb(34, 34, 34);
+  border: 2px solid rgb(34, 34, 34);
+}
+
+
+/*-- Button Styles */
+.bigGreen {
+  composes: button big green;
+}
+.bigRed {
+  composes: button big red;
+}
+.bigBlack {
+  composes: button big black;
+}
+/**/
+.mediumGreen {
+  composes: button medium green;
+}
+.mediumRed {
+  composes: button medium red;
+}
+.mediumBlack {
+  composes: button medium black;
+}
+/**/
+.smallGreen {
+  composes: button small green;
+}
+.smallRed {
+  composes: button small red;
+}
+.smallBlack {
+  composes: button small black;
+}

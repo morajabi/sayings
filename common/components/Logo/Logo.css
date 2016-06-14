@@ -1,0 +1,15 @@
+.text {
+  height: 40px;
+  font-family: 'Arvo', serif;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  color: #000;
+  display: inline-block;
+  margin: 0;
+}
+.logo {
+  width: 100px;
+  height: 40px;
+  display: block;
+}

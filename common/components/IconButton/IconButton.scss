@@ -1,0 +1,30 @@
+$color: #ddd;
+$hover-color: #bbb;
+.wrapper {
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 30px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.icon {
+  display: inline;
+  font-size: 1em;
+  line-height: 1em;
+  color: $color;
+  transition: all .2s ease-out;
+  &:hover {
+    color: $hover-color;
+  }
+}
+.value {
+  display: inline;
+  font-family: Arvo, serif;
+  font-size: .8em;
+  line-height: .9em;
+  color: darken($color, 10%);
+  margin-left: 12px;
+  transition: all .2s ease-out;
+  user-select: none;
+}

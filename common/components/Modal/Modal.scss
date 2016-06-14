@@ -1,0 +1,42 @@
+.wrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  background: rgb(255, 255, 255);
+  background: rgba(0,0,0,.8);
+  overflow: auto;
+}
+//
+//
+.modal {
+  width: 500px;
+  background: #fff;
+  padding: 20px;
+  margin: 60px auto;
+  position: relative;
+  min-height: 70px;
+}
+.close {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  font-size: .9em;
+  color: #ccc;
+  cursor: pointer;
+  &:hover {
+    color: rgb(232, 68, 63);
+  }
+}
+.title {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.content {
+  width: 100%;
+  overflow: hidden;
+}

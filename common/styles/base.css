@@ -1,0 +1,8 @@
+ *:global ,*:after:global ,*:before:global {
+  box-sizing: border-box;
+}
+
+body:global {
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
