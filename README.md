@@ -15,7 +15,7 @@ Then run node server
 $ cd server
 $ node index.js
 ```
-Now you can start webpack-dev-server
+Now you can start webpack-dev-server. *run this at root of project!*
 ```
 webpack-dev-server
 ```
